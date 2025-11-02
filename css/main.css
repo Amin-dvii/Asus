@@ -30,21 +30,14 @@
 
 .ch-modal {
     color: rgb(24, 24, 24);
-    column-gap: 24px;
-    display: flex;
-    flex-direction: column;
     direction: ltr;
-    height: 191.2px;
     row-gap: 24px;
-    width: 248px;
 }
 
 .zarb {
     font-size: 18px;
     display: block;
     justify-self: right;
-    margin-top: 20px;
-    margin-right: 20px;
     font-weight: 500;
     cursor: pointer;
 }
@@ -54,10 +47,7 @@
     display: block;
     font-size: 16px;
     font-weight: 400;
-    height: 83.2px;
-    line-height: 20.8px;
-    width: 248px;
-    margin-left: 10%;
+    width: 90%;
 }
 
 .para-modal {
@@ -75,9 +65,6 @@
     color: #006CE1;
     font-weight: 600;
     font-size: 14px;
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -120,7 +107,7 @@
 .navbar_first {
     font-family: sans-serif;
     font-size: 16px;
-    height: 84px;
+    height: 34px;
     display: block;
     padding-left: 12px;
     padding-right: 12px;
@@ -171,6 +158,7 @@
     padding-right: 24px;
     text-align: center;
     width: 55.8px;
+    transition: all 700ms ease 0s;
 }
 
 .img_sec_nav {
@@ -217,7 +205,7 @@
     margin-left: 28px;
     text-align: center;
     width: 46.35px;
-    transition: all 60ms 0s ease;
+    transition: all 300ms 0s ease;
     border-bottom: 2px solid transparent;
 }
 
@@ -229,7 +217,7 @@
     display: flex;
     align-items: center;
     color: rgb(77, 77, 77);
-    cursor: default;
+    cursor: pointer;
     font-size: 13px;
     height: 34px;
     margin-left: 28px;
@@ -246,7 +234,7 @@
     display: flex;
     align-items: center;
     color: rgb(77, 77, 77);
-    cursor: default;
+    cursor: pointer;
     font-size: 13px;
     height: 34px;
     margin-left: 28px;
@@ -257,6 +245,10 @@
 
 .tx_th_nav:hover {
     border-bottom-color: #4d4d4d;
+}
+
+.harf_aval {
+    cursor: pointer;
 }
 
 .GGame {
@@ -270,6 +262,25 @@
     color: #4d4d4d;
 }
 
+.GGame:hover {
+    color: #181818;
+}
+
+.GGamee {
+    align-content: center;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    height: 16px;
+    text-align: center;
+    width: 100%;
+    color: #4d4d4d;
+}
+
+.GGamee:hover {
+    color: #181818;
+}
+
 .hover_game_nav {
     background-color: #ffffff;
     display: flex;
@@ -281,18 +292,46 @@
     width: 223.825px;
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 4px 0px;
-    margin-top: 10px;
     margin-left: -87.825px;
     overflow: hidden;
     cursor: pointer;
     position: absolute;
 }
 
+.hover_support_nav {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    height: 0px;
+    text-align: center;
+    width: 187.778px;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 4px 0px;
+    margin-top: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    margin-left: -70.2375px;
+    line-height: 17.94px;
+    text-wrap: nowrap;
+}
+
 /* for open hover */
 .tx_first_nav:hover .hover_game_nav {
     display: flex;
-    top: 24px;
+    top: 35px;
     height: 86.4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 0.8px solid rgb(220, 220, 220);
+}
+
+.khode_tx_support:hover .hover_support_nav {
+    display: flex;
+    top: 38px;
+    height: 187.288px;
     padding-bottom: 8px;
     padding-top: 8px;
     border-bottom: 0.8px solid rgb(220, 220, 220);
@@ -316,6 +355,26 @@
 }
 
 .first_tx_hover_nav:hover {
+    background-color: #f5f5f5;
+    color: #006ce1;
+}
+
+.first_tx_hover_nav_two {
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 0;
+    font-size: 15px;
+    height: 33.9375px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.first_tx_hover_nav_two:hover {
     background-color: #f5f5f5;
     color: #006ce1;
 }
@@ -372,21 +431,21 @@ a {
     overflow: hidden;
     left: 0;
     text-align: center;
-    top: 48px;
     width: 100%;
     z-index: 31;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
     transition: all 300ms ease 0s;
 }
 
 /* for js */
 .for_search {
-    height: 307.6px;
+    height: 320.6px;
+    padding-top: 16px;
 }
 
 .bache_click {
     border-top-color: black;
-    height: inherit;
+    height: 100%;
     width: 100%;
     overflow-y: auto;
     overflow-x: auto;
@@ -401,10 +460,11 @@ a {
         padding-bottom: 20px;
         padding-left: 78px;
         padding-right: 78px;
+        border-top: 4px solid rgb(24, 24, 24);
     }
 
     .for_search {
-        height: 100px;
+        height: 120px;
     }
 
     .click_search {
@@ -588,4 +648,365 @@ a {
 .fifi {
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.parent_two_nav {
+    font-size: 16px;
+    height: 48px;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    border-top: 0.8px solid rgb(200, 198, 198);
+    border-bottom: 0.8px solid rgb(200, 198, 198);
+}
+
+.bavche_two {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    max-width: 1236px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.avali_img_asus {
+    cursor: pointer;
+    font-size: 16px;
+    height: 16px;
+    min-width: 73.25px;
+    text-align: center;
+    width: 68.25px;
+}
+
+.xxl_img_asus_nav {
+    background-image: url("../images/logo-002.svg");
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 300ms ease 0s;
+}
+
+.porang_blue {
+    background-image: url("../images/logo-blue001.svg");
+    display: inline-block;
+    width: 104%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    transition: all 300ms ease 0s;
+}
+
+.mesl_margin {
+    height: 0;
+    max-width: 48px;
+    min-width: 28px;
+    text-align: center;
+    width: 48px;
+}
+
+.parent_words_in_xxl {
+    flex-grow: 1;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.first_word_two_nav {
+    color: rgb(77, 77, 77);
+    font-size: 13px;
+    line-height: 17.94px;
+    min-height: 48px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.maycraft {
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    height: 100%;
+    width: fit-content;
+    line-height: 50.94px;
+    text-align: center;
+    word-wrap: normal;
+    transition: all 300ms ease 0s;
+    border-bottom: 2px solid transparent;
+}
+
+.maycraft:hover {
+    color: #181818;
+    border-bottom-color: #181818;
+}
+
+.like_mar {
+    display: block;
+    height: 100%;
+    min-width: 1%;
+    text-align: center;
+}
+
+.like_mar1 {
+    display: block;
+    height: 100%;
+    min-width: 2%;
+    text-align: center;
+}
+
+.right_side_two_nav {
+    width: fit-content;
+}
+
+.first_word_nav_two {
+    color: rgb(77, 77, 77);
+    font-size: 13px;
+    font-family: "Noto Sans", sans-serif;
+    height: inherit;
+    text-align: center;
+    width: 100%;
+    margin-right: 30%;
+}
+
+.khode_tx_support {
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    font-size: 13px;
+    height: 100%;
+    line-height: 50.94px;
+    text-align: center;
+    width: 100%;
+    font-family: "Noto Sans", sans-serif;
+    border-bottom: 3px solid transparent;
+    transition: all 300ms ease 0s;
+}
+
+.khode_tx_support:hover {
+    color: #181818;
+    border-bottom-color: #181818;
+}
+
+.search_nav_two {
+    background-image: url("../images/header_search_dark_normal.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 16px;
+    width: 18px;
+    cursor: pointer;
+    height: 18px;
+    transition: all 500ms ease 0s;
+}
+
+.porang {
+    background-image: url("../images/header_search_light_normal.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 16px;
+    width: 18px;
+    cursor: pointer;
+    height: 18px;
+}
+
+.search_nav_thir {
+    background-image: url("../images/header_logout_dark_normal.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 16px;
+    width: 18px;
+    cursor: pointer;
+    height: 18px;
+    transition: all 500ms ease 0s;
+}
+
+.porang_1 {
+    background-image: url("../images/header_logout_light_normal.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 16px;
+    width: 18px;
+    cursor: pointer;
+    height: 18px;
+}
+
+.parent_hover_adamak {
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+    height: 0px;
+    font-size: 16px;
+    right: -47px;
+    text-align: center;
+    top: 48px;
+    width: 184px;
+    z-index: 3;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.he_adamak {
+    height: 120.8px;
+}
+
+.mesl_alaki {
+    cursor: pointer;
+    display: block;
+    height: 5px;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    width: 184px;
+}
+
+.parent_p_mar {
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 0;
+    font-size: 16px;
+    height: 120.8px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    text-align: center;
+    width: 184px;
+}
+
+.first_txt_adam {
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    height: 18.4px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.first_txt_adam:hover {
+    color: #006ce1;
+    text-decoration: underline;
+}
+
+.first_txt_adam:hover a {
+    color: #006ce1;
+    text-decoration: underline;
+}
+
+.for_a_adam {
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    height: auto;
+    width: auto;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.parent_search_big {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    width: 100%;
+    top: 83px;
+    z-index: 4;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    height: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active_search_big {
+    border-top: 0.8px solid rgb(77, 77, 77);
+    height: fit-content;
+    max-height: 323.6px;
+    overflow: visible;
+}
+
+.bache_search_big {
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    height: 100%;
+    margin-top: 1px;
+    max-width: 1273px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.parent_words_search_two {
+    font-size: 16px;
+    height: fit-content;
+    margin-top: 16px;
+    max-height: 505.9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+
+.dovomi_hover {
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.parent_learn {
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    height: fit-content;
+    z-index: -10;
+}
+
+.child_learn {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+}
+
+.ch {
+    color: rgb(0, 108, 225);
+    font-size: 14px;
+}
+
+.bott_nav:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 108, 225);
+    text-decoration-thickness: 1.5px;
+}
+
+.zir-js-navi-padding {
+    padding: 30px;
+}
+
+.hight-jd-zir-nav {
+    display: flex;
+    height: 800px;
+}
+
+.flex-submeno {
+    display: flex;
+}
+
+.none-submeno {
+    display: none;
 }
