@@ -491,7 +491,6 @@ elment2[9].addEventListener("mouseenter", function () {
 let js_zir_nav_display = document.querySelectorAll(".zir-js-navi-Display");
 let elment3 = document.querySelectorAll(".dis-js-3");
 let elment_hover3 = document.querySelectorAll(".dis-hover");
-console.log(elment3);
 
 
 text_js_nav[2].addEventListener("mouseenter", function () {
@@ -513,62 +512,62 @@ exma[4].addEventListener("click", function () {
 elment3[0].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.remove("none-submeno");
     elment_hover3[0].classList.add("flex-submeno");
-     elment_hover3[1].classList.remove("flex-submeno");
-     elment_hover3[2].classList.remove("flex-submeno");
-     elment_hover3[3].classList.remove("flex-submeno");
-     elment_hover3[4].classList.remove("flex-submeno");
-     elment_hover3[5].classList.remove("flex-submeno");
-     elment_hover3[6].classList.remove("flex-submeno");
-     elment_hover3[7].classList.remove("flex-submeno");
-     elment_hover3[8].classList.remove("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[1].classList.remove("flex-submeno");
+    elment_hover3[2].classList.remove("flex-submeno");
+    elment_hover3[3].classList.remove("flex-submeno");
+    elment_hover3[4].classList.remove("flex-submeno");
+    elment_hover3[5].classList.remove("flex-submeno");
+    elment_hover3[6].classList.remove("flex-submeno");
+    elment_hover3[7].classList.remove("flex-submeno");
+    elment_hover3[8].classList.remove("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[1].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
     elment_hover3[1].classList.remove("none-submeno");
-     elment_hover3[1].classList.add("flex-submeno");
-     elment_hover3[2].classList.remove("flex-submeno");
-     elment_hover3[3].classList.remove("flex-submeno");
-     elment_hover3[4].classList.remove("flex-submeno");
-     elment_hover3[5].classList.remove("flex-submeno");
-     elment_hover3[6].classList.remove("flex-submeno");
-     elment_hover3[7].classList.remove("flex-submeno");
-     elment_hover3[8].classList.remove("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[1].classList.add("flex-submeno");
+    elment_hover3[2].classList.remove("flex-submeno");
+    elment_hover3[3].classList.remove("flex-submeno");
+    elment_hover3[4].classList.remove("flex-submeno");
+    elment_hover3[5].classList.remove("flex-submeno");
+    elment_hover3[6].classList.remove("flex-submeno");
+    elment_hover3[7].classList.remove("flex-submeno");
+    elment_hover3[8].classList.remove("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[2].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
     elment_hover3[1].classList.add("none-submeno");
     elment_hover3[2].classList.remove("none-submeno");
-     elment_hover3[2].classList.add("flex-submeno");
-     elment_hover3[3].classList.remove("flex-submeno");
-     elment_hover3[4].classList.remove("flex-submeno");
-     elment_hover3[5].classList.remove("flex-submeno");
-     elment_hover3[6].classList.remove("flex-submeno");
-     elment_hover3[7].classList.remove("flex-submeno");
-     elment_hover3[8].classList.remove("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[2].classList.add("flex-submeno");
+    elment_hover3[3].classList.remove("flex-submeno");
+    elment_hover3[4].classList.remove("flex-submeno");
+    elment_hover3[5].classList.remove("flex-submeno");
+    elment_hover3[6].classList.remove("flex-submeno");
+    elment_hover3[7].classList.remove("flex-submeno");
+    elment_hover3[8].classList.remove("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[3].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
     elment_hover3[1].classList.add("none-submeno");
     elment_hover3[2].classList.add("none-submeno");
     elment_hover3[3].classList.remove("none-submeno");
-     elment_hover3[3].classList.add("flex-submeno");
-     elment_hover3[4].classList.remove("flex-submeno");
-     elment_hover3[5].classList.remove("flex-submeno");
-     elment_hover3[6].classList.remove("flex-submeno");
-     elment_hover3[7].classList.remove("flex-submeno");
-     elment_hover3[8].classList.remove("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[3].classList.add("flex-submeno");
+    elment_hover3[4].classList.remove("flex-submeno");
+    elment_hover3[5].classList.remove("flex-submeno");
+    elment_hover3[6].classList.remove("flex-submeno");
+    elment_hover3[7].classList.remove("flex-submeno");
+    elment_hover3[8].classList.remove("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[4].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
@@ -576,14 +575,14 @@ elment3[4].addEventListener("mouseenter", function () {
     elment_hover3[2].classList.add("none-submeno");
     elment_hover3[3].classList.add("none-submeno");
     elment_hover3[4].classList.remove("none-submeno");
-     elment_hover3[4].classList.add("flex-submeno");
-     elment_hover3[5].classList.remove("flex-submeno");
-     elment_hover3[6].classList.remove("flex-submeno");
-     elment_hover3[7].classList.remove("flex-submeno");
-     elment_hover3[8].classList.remove("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[4].classList.add("flex-submeno");
+    elment_hover3[5].classList.remove("flex-submeno");
+    elment_hover3[6].classList.remove("flex-submeno");
+    elment_hover3[7].classList.remove("flex-submeno");
+    elment_hover3[8].classList.remove("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[5].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
@@ -592,13 +591,13 @@ elment3[5].addEventListener("mouseenter", function () {
     elment_hover3[3].classList.add("none-submeno");
     elment_hover3[4].classList.add("none-submeno");
     elment_hover3[5].classList.remove("none-submeno");
-     elment_hover3[5].classList.add("flex-submeno");
-     elment_hover3[6].classList.remove("flex-submeno");
-     elment_hover3[7].classList.remove("flex-submeno");
-     elment_hover3[8].classList.remove("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[5].classList.add("flex-submeno");
+    elment_hover3[6].classList.remove("flex-submeno");
+    elment_hover3[7].classList.remove("flex-submeno");
+    elment_hover3[8].classList.remove("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[6].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
@@ -608,12 +607,12 @@ elment3[6].addEventListener("mouseenter", function () {
     elment_hover3[4].classList.add("none-submeno");
     elment_hover3[5].classList.add("none-submeno");
     elment_hover3[6].classList.remove("none-submeno");
-     elment_hover3[6].classList.add("flex-submeno");
-     elment_hover3[7].classList.remove("flex-submeno");
-     elment_hover3[8].classList.remove("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[6].classList.add("flex-submeno");
+    elment_hover3[7].classList.remove("flex-submeno");
+    elment_hover3[8].classList.remove("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[7].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
@@ -624,11 +623,11 @@ elment3[7].addEventListener("mouseenter", function () {
     elment_hover3[5].classList.add("none-submeno");
     elment_hover3[6].classList.add("none-submeno");
     elment_hover3[7].classList.remove("none-submeno");
-     elment_hover3[7].classList.add("flex-submeno");
-     elment_hover3[8].classList.remove("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[7].classList.add("flex-submeno");
+    elment_hover3[8].classList.remove("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[8].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
@@ -640,10 +639,10 @@ elment3[8].addEventListener("mouseenter", function () {
     elment_hover3[6].classList.add("none-submeno");
     elment_hover3[7].classList.add("none-submeno");
     elment_hover3[8].classList.remove("none-submeno");
-     elment_hover3[8].classList.add("flex-submeno");
-     elment_hover3[9].classList.remove("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[8].classList.add("flex-submeno");
+    elment_hover3[9].classList.remove("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[9].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
@@ -656,9 +655,9 @@ elment3[9].addEventListener("mouseenter", function () {
     elment_hover3[7].classList.add("none-submeno");
     elment_hover3[8].classList.add("none-submeno");
     elment_hover3[9].classList.remove("none-submeno");
-     elment_hover3[9].classList.add("flex-submeno");
-     elment_hover3[10].classList.remove("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[9].classList.add("flex-submeno");
+    elment_hover3[10].classList.remove("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[10].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
@@ -672,8 +671,8 @@ elment3[10].addEventListener("mouseenter", function () {
     elment_hover3[8].classList.add("none-submeno");
     elment_hover3[9].classList.add("none-submeno");
     elment_hover3[10].classList.remove("none-submeno");
-     elment_hover3[10].classList.add("flex-submeno");
-     elment_hover3[11].classList.remove("flex-submeno");
+    elment_hover3[10].classList.add("flex-submeno");
+    elment_hover3[11].classList.remove("flex-submeno");
 });
 elment3[11].addEventListener("mouseenter", function () {
     elment_hover3[0].classList.add("none-submeno");
@@ -688,5 +687,718 @@ elment3[11].addEventListener("mouseenter", function () {
     elment_hover3[9].classList.add("none-submeno");
     elment_hover3[10].classList.add("none-submeno");
     elment_hover3[11].classList.remove("none-submeno");
-     elment_hover3[11].classList.add("flex-submeno");
+    elment_hover3[11].classList.add("flex-submeno");
+});
+
+
+
+
+
+let js_zir_nav_motherboard = document.querySelectorAll(".zir-js-navi-mom");
+let elment4 = document.querySelectorAll(".mother-board");
+let elment_hover4 = document.querySelectorAll(".mom-hover");
+
+text_js_nav[3].addEventListener("mouseenter", function () {
+    js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.add("hight-jd-zir-nav")
+})
+text_js_nav[3].addEventListener("click", function () {
+    js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.toggle("hight-jd-zir-nav");
+})
+js_zir_nav_motherboard[0].addEventListener("mouseleave", function () {
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+})
+exma[5].addEventListener("click", function () {
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+});
+
+elment4[0].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.remove("none-submeno");
+    elment_hover4[0].classList.add("flex-submeno");
+    elment_hover4[1].classList.remove("flex-submeno");
+    elment_hover4[2].classList.remove("flex-submeno");
+    elment_hover4[3].classList.remove("flex-submeno");
+    elment_hover4[4].classList.remove("flex-submeno");
+    elment_hover4[5].classList.remove("flex-submeno");
+    elment_hover4[6].classList.remove("flex-submeno");
+    elment_hover4[7].classList.remove("flex-submeno");
+    elment_hover4[8].classList.remove("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[1].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.remove("none-submeno");
+    elment_hover4[1].classList.add("flex-submeno");
+    elment_hover4[2].classList.remove("flex-submeno");
+    elment_hover4[3].classList.remove("flex-submeno");
+    elment_hover4[4].classList.remove("flex-submeno");
+    elment_hover4[5].classList.remove("flex-submeno");
+    elment_hover4[6].classList.remove("flex-submeno");
+    elment_hover4[7].classList.remove("flex-submeno");
+    elment_hover4[8].classList.remove("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[2].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.remove("none-submeno");
+    elment_hover4[2].classList.add("flex-submeno");
+    elment_hover4[3].classList.remove("flex-submeno");
+    elment_hover4[4].classList.remove("flex-submeno");
+    elment_hover4[5].classList.remove("flex-submeno");
+    elment_hover4[6].classList.remove("flex-submeno");
+    elment_hover4[7].classList.remove("flex-submeno");
+    elment_hover4[8].classList.remove("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[3].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.add("none-submeno");
+    elment_hover4[3].classList.remove("none-submeno");
+    elment_hover4[3].classList.add("flex-submeno");
+    elment_hover4[4].classList.remove("flex-submeno");
+    elment_hover4[5].classList.remove("flex-submeno");
+    elment_hover4[6].classList.remove("flex-submeno");
+    elment_hover4[7].classList.remove("flex-submeno");
+    elment_hover4[8].classList.remove("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[4].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.add("none-submeno");
+    elment_hover4[3].classList.add("none-submeno");
+    elment_hover4[4].classList.remove("none-submeno");
+    elment_hover4[4].classList.add("flex-submeno");
+    elment_hover4[5].classList.remove("flex-submeno");
+    elment_hover4[6].classList.remove("flex-submeno");
+    elment_hover4[7].classList.remove("flex-submeno");
+    elment_hover4[8].classList.remove("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[5].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.add("none-submeno");
+    elment_hover4[3].classList.add("none-submeno");
+    elment_hover4[4].classList.add("none-submeno");
+    elment_hover4[5].classList.remove("none-submeno");
+    elment_hover4[5].classList.add("flex-submeno");
+    elment_hover4[6].classList.remove("flex-submeno");
+    elment_hover4[7].classList.remove("flex-submeno");
+    elment_hover4[8].classList.remove("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[6].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.add("none-submeno");
+    elment_hover4[3].classList.add("none-submeno");
+    elment_hover4[4].classList.add("none-submeno");
+    elment_hover4[5].classList.add("none-submeno");
+    elment_hover4[6].classList.remove("none-submeno");
+    elment_hover4[6].classList.add("flex-submeno");
+    elment_hover4[7].classList.remove("flex-submeno");
+    elment_hover4[8].classList.remove("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[7].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.add("none-submeno");
+    elment_hover4[3].classList.add("none-submeno");
+    elment_hover4[4].classList.add("none-submeno");
+    elment_hover4[5].classList.add("none-submeno");
+    elment_hover4[6].classList.add("none-submeno");
+    elment_hover4[7].classList.remove("none-submeno");
+    elment_hover4[7].classList.add("flex-submeno");
+    elment_hover4[8].classList.remove("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[8].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.add("none-submeno");
+    elment_hover4[3].classList.add("none-submeno");
+    elment_hover4[4].classList.add("none-submeno");
+    elment_hover4[5].classList.add("none-submeno");
+    elment_hover4[6].classList.add("none-submeno");
+    elment_hover4[7].classList.add("none-submeno");
+    elment_hover4[8].classList.remove("none-submeno");
+    elment_hover4[8].classList.add("flex-submeno");
+    elment_hover4[9].classList.remove("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[9].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.add("none-submeno");
+    elment_hover4[3].classList.add("none-submeno");
+    elment_hover4[4].classList.add("none-submeno");
+    elment_hover4[5].classList.add("none-submeno");
+    elment_hover4[6].classList.add("none-submeno");
+    elment_hover4[7].classList.add("none-submeno");
+    elment_hover4[8].classList.add("none-submeno");
+    elment_hover4[9].classList.remove("none-submeno");
+    elment_hover4[9].classList.add("flex-submeno");
+    elment_hover4[10].classList.remove("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+elment4[10].addEventListener("mouseenter", function () {
+    elment_hover4[0].classList.add("none-submeno");
+    elment_hover4[1].classList.add("none-submeno");
+    elment_hover4[2].classList.add("none-submeno");
+    elment_hover4[3].classList.add("none-submeno");
+    elment_hover4[4].classList.add("none-submeno");
+    elment_hover4[5].classList.add("none-submeno");
+    elment_hover4[6].classList.add("none-submeno");
+    elment_hover4[7].classList.add("none-submeno");
+    elment_hover4[8].classList.add("none-submeno");
+    elment_hover4[9].classList.add("none-submeno");
+    elment_hover4[10].classList.remove("none-submeno");
+    elment_hover4[10].classList.add("flex-submeno");
+    elment_hover4[11].classList.remove("flex-submeno");
+});
+
+
+
+
+let js_zir_nav_network = document.querySelectorAll(".zir-js-navi-net");
+let elment5 = document.querySelectorAll(".network");
+let elment_hover5 = document.querySelectorAll(".net-hover");
+
+text_js_nav[4].addEventListener("mouseenter", function () {
+    js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.add("hight-jd-zir-nav");
+})
+text_js_nav[4].addEventListener("click", function () {
+    js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.toggle("hight-jd-zir-nav");
+})
+js_zir_nav_network[0].addEventListener("mouseleave", function () {
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+})
+exma[6].addEventListener("click", function () {
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+});
+elment5[0].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.remove("none-submeno");
+    elment_hover5[0].classList.add("flex-submeno");
+    elment_hover5[1].classList.remove("flex-submeno");
+    elment_hover5[2].classList.remove("flex-submeno");
+    elment_hover5[3].classList.remove("flex-submeno");
+    elment_hover5[4].classList.remove("flex-submeno");
+    elment_hover5[5].classList.remove("flex-submeno");
+    elment_hover5[6].classList.remove("flex-submeno");
+    elment_hover5[7].classList.remove("flex-submeno");
+    elment_hover5[8].classList.remove("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[1].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.remove("none-submeno");
+    elment_hover5[1].classList.add("flex-submeno");
+    elment_hover5[2].classList.remove("flex-submeno");
+    elment_hover5[3].classList.remove("flex-submeno");
+    elment_hover5[4].classList.remove("flex-submeno");
+    elment_hover5[5].classList.remove("flex-submeno");
+    elment_hover5[6].classList.remove("flex-submeno");
+    elment_hover5[7].classList.remove("flex-submeno");
+    elment_hover5[8].classList.remove("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[2].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.remove("none-submeno");
+    elment_hover5[2].classList.add("flex-submeno");
+    elment_hover5[3].classList.remove("flex-submeno");
+    elment_hover5[4].classList.remove("flex-submeno");
+    elment_hover5[5].classList.remove("flex-submeno");
+    elment_hover5[6].classList.remove("flex-submeno");
+    elment_hover5[7].classList.remove("flex-submeno");
+    elment_hover5[8].classList.remove("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[3].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.remove("none-submeno");
+    elment_hover5[3].classList.add("flex-submeno");
+    elment_hover5[4].classList.remove("flex-submeno");
+    elment_hover5[5].classList.remove("flex-submeno");
+    elment_hover5[6].classList.remove("flex-submeno");
+    elment_hover5[7].classList.remove("flex-submeno");
+    elment_hover5[8].classList.remove("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[4].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.remove("none-submeno");
+    elment_hover5[4].classList.add("flex-submeno");
+    elment_hover5[5].classList.remove("flex-submeno");
+    elment_hover5[6].classList.remove("flex-submeno");
+    elment_hover5[7].classList.remove("flex-submeno");
+    elment_hover5[8].classList.remove("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[5].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.remove("none-submeno");
+    elment_hover5[5].classList.add("flex-submeno");
+    elment_hover5[6].classList.remove("flex-submeno");
+    elment_hover5[7].classList.remove("flex-submeno");
+    elment_hover5[8].classList.remove("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[6].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.add("none-submeno");
+    elment_hover5[6].classList.remove("none-submeno");
+    elment_hover5[6].classList.add("flex-submeno");
+    elment_hover5[7].classList.remove("flex-submeno");
+    elment_hover5[8].classList.remove("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[7].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.add("none-submeno");
+    elment_hover5[6].classList.add("none-submeno");
+    elment_hover5[7].classList.remove("none-submeno");
+    elment_hover5[7].classList.add("flex-submeno");
+    elment_hover5[8].classList.remove("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[8].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.add("none-submeno");
+    elment_hover5[6].classList.add("none-submeno");
+    elment_hover5[7].classList.add("none-submeno");
+    elment_hover5[8].classList.remove("none-submeno");
+    elment_hover5[8].classList.add("flex-submeno");
+    elment_hover5[9].classList.remove("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[9].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.add("none-submeno");
+    elment_hover5[6].classList.add("none-submeno");
+    elment_hover5[7].classList.add("none-submeno");
+    elment_hover5[8].classList.add("none-submeno");
+    elment_hover5[9].classList.remove("none-submeno");
+    elment_hover5[9].classList.add("flex-submeno");
+    elment_hover5[10].classList.remove("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[10].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.add("none-submeno");
+    elment_hover5[6].classList.add("none-submeno");
+    elment_hover5[7].classList.add("none-submeno");
+    elment_hover5[8].classList.add("none-submeno");
+    elment_hover5[9].classList.add("none-submeno");
+    elment_hover5[10].classList.remove("none-submeno");
+    elment_hover5[10].classList.add("flex-submeno");
+    elment_hover5[11].classList.remove("flex-submeno");
+});
+elment5[11].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.add("none-submeno");
+    elment_hover5[6].classList.add("none-submeno");
+    elment_hover5[7].classList.add("none-submeno");
+    elment_hover5[8].classList.add("none-submeno");
+    elment_hover5[9].classList.add("none-submeno");
+    elment_hover5[10].classList.add("none-submeno");
+    elment_hover5[11].classList.remove("none-submeno");
+    elment_hover5[11].classList.add("flex-submeno");
+    elment_hover5[12].classList.remove("flex-submeno");
+    elment_hover5[13].classList.remove("flex-submeno");
+});
+elment5[12].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.add("none-submeno");
+    elment_hover5[6].classList.add("none-submeno");
+    elment_hover5[7].classList.add("none-submeno");
+    elment_hover5[8].classList.add("none-submeno");
+    elment_hover5[9].classList.add("none-submeno");
+    elment_hover5[10].classList.add("none-submeno");
+    elment_hover5[11].classList.add("none-submeno");
+    elment_hover5[12].classList.remove("none-submeno");
+    elment_hover5[12].classList.add("flex-submeno");
+    elment_hover5[13].classList.remove("flex-submeno");
+});
+elment5[13].addEventListener("mouseenter", function () {
+    elment_hover5[0].classList.add("none-submeno");
+    elment_hover5[1].classList.add("none-submeno");
+    elment_hover5[2].classList.add("none-submeno");
+    elment_hover5[3].classList.add("none-submeno");
+    elment_hover5[4].classList.add("none-submeno");
+    elment_hover5[5].classList.add("none-submeno");
+    elment_hover5[6].classList.add("none-submeno");
+    elment_hover5[7].classList.add("none-submeno");
+    elment_hover5[8].classList.add("none-submeno");
+    elment_hover5[9].classList.add("none-submeno");
+    elment_hover5[10].classList.add("none-submeno");
+    elment_hover5[11].classList.add("none-submeno");
+    elment_hover5[12].classList.add("none-submeno");
+    elment_hover5[13].classList.remove("none-submeno");
+    elment_hover5[13].classList.add("flex-submeno");
+});
+
+
+
+
+
+
+let js_zir_nav_Acsesori = document.querySelectorAll(".zir-js-navi-acsesori");
+let elment6 = document.querySelectorAll(".acs");
+let elment_hover6 = document.querySelectorAll(".acs-hover");
+
+
+text_js_nav[5].addEventListener("mouseenter", function () {
+    js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.add("hight-jd-zir-nav");
+})
+text_js_nav[5].addEventListener("click", function () {
+    js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.toggle("hight-jd-zir-nav");
+})
+js_zir_nav_Acsesori[0].addEventListener("mouseleave", function () {
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
+})
+exma[7].addEventListener("click", function () {
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
+});
+
+
+
+elment6[0].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.remove("none-submeno");
+    elment_hover6[0].classList.add("flex-submeno");
+    elment_hover6[1].classList.remove("flex-submeno");
+    elment_hover6[2].classList.remove("flex-submeno");
+    elment_hover6[3].classList.remove("flex-submeno");
+    elment_hover6[4].classList.remove("flex-submeno");
+    elment_hover6[5].classList.remove("flex-submeno");
+    elment_hover6[6].classList.remove("flex-submeno");
+    elment_hover6[7].classList.remove("flex-submeno");
+    elment_hover6[8].classList.remove("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[1].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.remove("none-submeno");
+    elment_hover6[1].classList.add("flex-submeno");
+    elment_hover6[2].classList.remove("flex-submeno");
+    elment_hover6[3].classList.remove("flex-submeno");
+    elment_hover6[4].classList.remove("flex-submeno");
+    elment_hover6[5].classList.remove("flex-submeno");
+    elment_hover6[6].classList.remove("flex-submeno");
+    elment_hover6[7].classList.remove("flex-submeno");
+    elment_hover6[8].classList.remove("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[2].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.remove("none-submeno");
+    elment_hover6[2].classList.add("flex-submeno");
+    elment_hover6[3].classList.remove("flex-submeno");
+    elment_hover6[4].classList.remove("flex-submeno");
+    elment_hover6[5].classList.remove("flex-submeno");
+    elment_hover6[6].classList.remove("flex-submeno");
+    elment_hover6[7].classList.remove("flex-submeno");
+    elment_hover6[8].classList.remove("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[3].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.remove("none-submeno");
+    elment_hover6[3].classList.add("flex-submeno");
+    elment_hover6[4].classList.remove("flex-submeno");
+    elment_hover6[5].classList.remove("flex-submeno");
+    elment_hover6[6].classList.remove("flex-submeno");
+    elment_hover6[7].classList.remove("flex-submeno");
+    elment_hover6[8].classList.remove("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[4].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.remove("none-submeno");
+    elment_hover6[4].classList.add("flex-submeno");
+    elment_hover6[5].classList.remove("flex-submeno");
+    elment_hover6[6].classList.remove("flex-submeno");
+    elment_hover6[7].classList.remove("flex-submeno");
+    elment_hover6[8].classList.remove("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[5].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.remove("none-submeno");
+    elment_hover6[5].classList.add("flex-submeno");
+    elment_hover6[6].classList.remove("flex-submeno");
+    elment_hover6[7].classList.remove("flex-submeno");
+    elment_hover6[8].classList.remove("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[6].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.add("none-submeno");
+    elment_hover6[6].classList.remove("none-submeno");
+    elment_hover6[6].classList.add("flex-submeno");
+    elment_hover6[7].classList.remove("flex-submeno");
+    elment_hover6[8].classList.remove("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[7].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.add("none-submeno");
+    elment_hover6[6].classList.add("none-submeno");
+    elment_hover6[7].classList.remove("none-submeno");
+    elment_hover6[7].classList.add("flex-submeno");
+    elment_hover6[8].classList.remove("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[8].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.add("none-submeno");
+    elment_hover6[6].classList.add("none-submeno");
+    elment_hover6[7].classList.add("none-submeno");
+    elment_hover6[8].classList.remove("none-submeno");
+    elment_hover6[8].classList.add("flex-submeno");
+    elment_hover6[9].classList.remove("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[9].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.add("none-submeno");
+    elment_hover6[6].classList.add("none-submeno");
+    elment_hover6[7].classList.add("none-submeno");
+    elment_hover6[8].classList.add("none-submeno");
+    elment_hover6[9].classList.remove("none-submeno");
+    elment_hover6[9].classList.add("flex-submeno");
+    elment_hover6[10].classList.remove("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[10].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.add("none-submeno");
+    elment_hover6[6].classList.add("none-submeno");
+    elment_hover6[7].classList.add("none-submeno");
+    elment_hover6[8].classList.add("none-submeno");
+    elment_hover6[9].classList.add("none-submeno");
+    elment_hover6[10].classList.remove("none-submeno");
+    elment_hover6[10].classList.add("flex-submeno");
+    elment_hover6[11].classList.remove("flex-submeno");
+});
+elment6[11].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.add("none-submeno");
+    elment_hover6[6].classList.add("none-submeno");
+    elment_hover6[7].classList.add("none-submeno");
+    elment_hover6[8].classList.add("none-submeno");
+    elment_hover6[9].classList.add("none-submeno");
+    elment_hover6[10].classList.add("none-submeno");
+    elment_hover6[11].classList.remove("none-submeno");
+    elment_hover6[11].classList.add("flex-submeno");
+    elment_hover6[12].classList.remove("flex-submeno");
+    elment_hover6[13].classList.remove("flex-submeno");
+});
+elment6[12].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.add("none-submeno");
+    elment_hover6[6].classList.add("none-submeno");
+    elment_hover6[7].classList.add("none-submeno");
+    elment_hover6[8].classList.add("none-submeno");
+    elment_hover6[9].classList.add("none-submeno");
+    elment_hover6[10].classList.add("none-submeno");
+    elment_hover6[11].classList.add("none-submeno");
+    elment_hover6[12].classList.remove("none-submeno");
+    elment_hover6[12].classList.add("flex-submeno");
+    elment_hover6[13].classList.remove("flex-submeno");
+});
+elment6[13].addEventListener("mouseenter", function () {
+    elment_hover6[0].classList.add("none-submeno");
+    elment_hover6[1].classList.add("none-submeno");
+    elment_hover6[2].classList.add("none-submeno");
+    elment_hover6[3].classList.add("none-submeno");
+    elment_hover6[4].classList.add("none-submeno");
+    elment_hover6[5].classList.add("none-submeno");
+    elment_hover6[6].classList.add("none-submeno");
+    elment_hover6[7].classList.add("none-submeno");
+    elment_hover6[8].classList.add("none-submeno");
+    elment_hover6[9].classList.add("none-submeno");
+    elment_hover6[10].classList.add("none-submeno");
+    elment_hover6[11].classList.add("none-submeno");
+    elment_hover6[12].classList.add("none-submeno");
+    elment_hover6[13].classList.remove("none-submeno");
+    elment_hover6[13].classList.add("flex-submeno");
+});
+
+
+// end navbar lamasab
+
+let imgcounter = document.querySelector(".slides");
+let img = document.getElementsByClassName("A1");
+let play_slider = document.getElementById("play-slide");
+let pused_slider = document.getElementById("stop-slider");
+
+
+count = 0;
+
+setInterval(() => {
+    let cw = img.clientWidth;
+    img[0].style.marginLeft = `-${cw}px`
+    setTimeout(() => {
+        imgcounter.appendChild(img[0]);
+    }, 300);
+}, 3000);
+pused_slider.addEventListener("click", function () {
+    // play_slider.classList.remove("flex-submeno");
+    // play_slider.classList.add("none-submeno");
+    console.log(212);
 });

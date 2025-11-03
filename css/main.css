@@ -465,6 +465,7 @@ a {
 
     .for_search {
         height: 120px;
+        z-index: 100;
     }
 
     .click_search {
@@ -1009,4 +1010,45 @@ a {
 
 .none-submeno {
     display: none;
+}
+
+.slides {
+    scrollbar-width: none;
+}
+
+.bk {
+    background-image: url("../images/slide1.webp");
+    width: 100%;
+    height: 100%;
+}
+
+.bk2 {
+    background-image: url("../images/slide2.webp");
+    width: 100%;
+    height: 100%;
+}
+
+.A1 {
+    object-fit: cover;
+}
+
+.dots {
+    position: absolute;
+}
+
+.slides {
+    position: relative;
+}
+
+.mes-mar-slide {
+    bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.active {
+    display: block;
+}
+
+.carousel {
+    z-index: -100;
 }
