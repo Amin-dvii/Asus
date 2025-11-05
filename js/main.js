@@ -179,9 +179,19 @@ let nav_two = document.querySelectorAll(".jibzan");
 
 text_js_nav[0].addEventListener("mouseenter", function () {
     js_zir_nav_mobile[0].classList.toggle("hight-jd-zir-nav");
+    js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 });
 text_js_nav[0].addEventListener("click", function () {
     js_zir_nav_mobile[0].classList.toggle("hight-jd-zir-nav");
+    js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 });
 js_zir_nav_mobile[0].addEventListener("mouseleave", function () {
     setTimeout(() => {
@@ -240,14 +250,20 @@ let elment_hover2 = document.querySelectorAll(".laptop-hover");
 
 
 text_js_nav[1].addEventListener("mouseenter", function () {
-    js_zir_nav_laptop[0].classList.add("hight-jd-zir-nav");
+    js_zir_nav_laptop[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 })
 text_js_nav[1].addEventListener("click", function () {
     js_zir_nav_laptop[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 })
 js_zir_nav_laptop[0].addEventListener("mouseleave", function () {
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
@@ -494,14 +510,20 @@ let elment_hover3 = document.querySelectorAll(".dis-hover");
 
 
 text_js_nav[2].addEventListener("mouseenter", function () {
+    js_zir_nav_display[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
-    js_zir_nav_display[0].classList.add("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 })
 text_js_nav[2].addEventListener("click", function () {
+    js_zir_nav_display[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
-    js_zir_nav_display[0].classList.toggle("hight-jd-zir-nav");
+    js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 })
 js_zir_nav_display[0].addEventListener("mouseleave", function () {
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
@@ -699,16 +721,20 @@ let elment4 = document.querySelectorAll(".mother-board");
 let elment_hover4 = document.querySelectorAll(".mom-hover");
 
 text_js_nav[3].addEventListener("mouseenter", function () {
+    js_zir_nav_motherboard[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
-    js_zir_nav_motherboard[0].classList.add("hight-jd-zir-nav")
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 })
 text_js_nav[3].addEventListener("click", function () {
+    js_zir_nav_motherboard[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
-    js_zir_nav_motherboard[0].classList.toggle("hight-jd-zir-nav");
+    js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 })
 js_zir_nav_motherboard[0].addEventListener("mouseleave", function () {
     js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
@@ -891,18 +917,20 @@ let elment5 = document.querySelectorAll(".network");
 let elment_hover5 = document.querySelectorAll(".net-hover");
 
 text_js_nav[4].addEventListener("mouseenter", function () {
+    js_zir_nav_network[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
-    js_zir_nav_network[0].classList.add("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 })
 text_js_nav[4].addEventListener("click", function () {
+    js_zir_nav_network[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
-    js_zir_nav_network[0].classList.toggle("hight-jd-zir-nav");
+    js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
 })
 js_zir_nav_network[0].addEventListener("mouseleave", function () {
     js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
@@ -1138,20 +1166,20 @@ let elment_hover6 = document.querySelectorAll(".acs-hover");
 
 
 text_js_nav[5].addEventListener("mouseenter", function () {
+    js_zir_nav_Acsesori[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
-    js_zir_nav_Acsesori[0].classList.add("hight-jd-zir-nav");
 })
 text_js_nav[5].addEventListener("click", function () {
+    js_zir_nav_Acsesori[0].classList.toggle("hight-jd-zir-nav");
     js_zir_nav_laptop[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_mobile[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_display[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_motherboard[0].classList.remove("hight-jd-zir-nav");
     js_zir_nav_network[0].classList.remove("hight-jd-zir-nav");
-    js_zir_nav_Acsesori[0].classList.toggle("hight-jd-zir-nav");
 })
 js_zir_nav_Acsesori[0].addEventListener("mouseleave", function () {
     js_zir_nav_Acsesori[0].classList.remove("hight-jd-zir-nav");
@@ -1384,9 +1412,9 @@ elment6[13].addEventListener("mouseenter", function () {
 
 let imgcounter = document.querySelector(".slides");
 let img = document.getElementsByClassName("A1");
+let little_cir = document.getElementsByClassName("dot");
 let play_slider = document.getElementById("play-slide");
-let pused_slider = document.getElementById("stop-slider");
-
+let pused_slider = document.getElementsByClassName("bi bi-play-fill");
 
 count = 0;
 
@@ -1395,10 +1423,89 @@ setInterval(() => {
     img[0].style.marginLeft = `-${cw}px`
     setTimeout(() => {
         imgcounter.appendChild(img[0]);
+        for (let i = 0; i < little_cir.length; i++) {
+            little_cir[i].classList.remove("dot_back");
+        }
+        count = (count + 1) % little_cir.length;
+        little_cir[count].classList.add("dot_back")
     }, 300);
 }, 3000);
-pused_slider.addEventListener("click", function () {
-    // play_slider.classList.remove("flex-submeno");
-    // play_slider.classList.add("none-submeno");
-    console.log(212);
+
+
+
+let carosule = document.getElementById("carousel2");
+let prevebtn = document.getElementById("prev_btn");
+let nextbtn = document.getElementById("next_btn");
+let dasti_slider = document.getElementsByClassName("avali_blue");
+let parent_dasti_slider = document.querySelectorAll("#p_blue");
+
+
+
+function update() {
+    let leftside = carosule.scrollLeft;
+    let maxside = carosule.scrollWidth - carosule.clientWidth;
+
+    if (leftside <= 0) {
+        prevebtn.classList.add("hide");
+    } else {
+        prevebtn.classList.remove("hide");
+    }
+
+    if (leftside >= maxside - 5) {
+        nextbtn.classList.add("hide");
+    } else {
+        nextbtn.classList.remove("hide");
+    }
+}
+
+function update_dots() {
+    let cw_car2 = carosule.querySelector("div").offsetWidth + 12;
+    let index = Math.round(carosule.scrollLeft / (cw_car2 * 3));
+
+    parent_dasti_slider.forEach((dasti_slider, i) => {
+        if (i === index) {
+            dasti_slider.classList.remove("bg-gray-200");
+            dasti_slider.classList.add("bg-blue-700");
+        } else {
+            dasti_slider.classList.add("bg-gray-200");
+            dasti_slider.classList.remove("bg-blue-700");
+        }
+    });
+}
+
+nextbtn.addEventListener("click", function () {
+    let cw_car2 = carosule.querySelector("div").offsetWidth + 12;
+    carosule.scrollBy({
+        left: cw_car2 * 3, behavior: "smooth"
+    });
 });
+prevebtn.addEventListener("click", function () {
+    let cw_car2 = carosule.querySelector("div").offsetWidth + 12;
+    carosule.scrollBy({
+        left: -cw_car2 * 3, behavior: "smooth"
+    });
+});
+
+carosule.addEventListener("scroll", () => {
+    update();
+    update_dots();
+});
+update_dots();
+update();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
