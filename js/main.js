@@ -1434,10 +1434,39 @@ setInterval(() => {
 
 
 let carosule = document.getElementById("carousel2");
+let carosule1 = document.getElementById("carvv");
 let prevebtn = document.getElementById("prev_btn");
 let nextbtn = document.getElementById("next_btn");
 let dasti_slider = document.getElementsByClassName("avali_blue");
 let parent_dasti_slider = document.querySelectorAll("#p_blue");
+let dasti_slider1 = document.getElementsByClassName("avali_blue1");
+let parent_dasti_slider1 = document.querySelectorAll("#p_blue1");
+
+
+
+let stopHell = false;
+carosule.addEventListener("touchend", function () {
+    if (stopHell) return;
+    let maxscrol = carosule.scrollWidth - carosule.clientWidth;
+
+    if (carosule.scrollLeft >= maxscrol - 5) {
+        stopHell = true;
+        setTimeout(() => {
+            carosule.scrollTo({ left: 0, behavior: "smooth" });
+            setTimeout(() => (stopHell = false), 1000);
+        }, 400);
+    }
+
+
+
+    if (carosule.scrollLeft <= 0) {
+        stopHell = true;
+        setTimeout(() => {
+            carosule.scrollTo({ left: maxscrol, behavior: "smooth" });
+            setTimeout(() => (stopHell = false), 2000);
+        }, 300);
+    }
+});
 
 
 
@@ -1460,7 +1489,7 @@ function update() {
 
 function update_dots() {
     let cw_car2 = carosule.querySelector("div").offsetWidth + 12;
-    let index = Math.round(carosule.scrollLeft / (cw_car2 * 3));
+    let index = Math.round(carosule.scrollLeft / (cw_car2 * 1));
 
     parent_dasti_slider.forEach((dasti_slider, i) => {
         if (i === index) {
@@ -1469,6 +1498,22 @@ function update_dots() {
         } else {
             dasti_slider.classList.add("bg-gray-200");
             dasti_slider.classList.remove("bg-blue-700");
+        }
+    });
+}
+
+
+function update_dots1() {
+    let cw_car2 = carosule1.querySelector("div").offsetWidth + 12;
+    let index = Math.round(carosule1.scrollLeft / (cw_car2 * 3));
+
+    parent_dasti_slider1.forEach((dasti_slider1, i) => {
+        if (i === index) {
+            dasti_slider1.classList.remove("bg-gray-200");
+            dasti_slider1.classList.add("bg-blue-700");
+        } else {
+            dasti_slider1.classList.add("bg-gray-200");
+            dasti_slider1.classList.remove("bg-blue-700");
         }
     });
 }
@@ -1490,22 +1535,45 @@ carosule.addEventListener("scroll", () => {
     update();
     update_dots();
 });
+carosule1.addEventListener("scroll", () => {
+    update_dots1();
+});
 update_dots();
 update();
+update_dots1()
 
 
+let footer1 = document.getElementsByClassName("box")[0];
+let zirefooter1 = document.getElementsByClassName("zire1")[0];
+
+footer1.addEventListener("click", function () {
+    zirefooter1.classList.toggle("flex-submeno");
+});
 
 
+let footer2 = document.getElementsByClassName("box")[1];
+let zirefooter2 = document.getElementsByClassName("zire2")[0];
+
+footer2.addEventListener("click", function () {
+    zirefooter2.classList.toggle("flex-submeno");
+});
 
 
+let footer3 = document.getElementsByClassName("box")[2];
+let zirefooter3 = document.getElementsByClassName("zire3")[0];
 
+footer3.addEventListener("click", function () {
+    zirefooter3.classList.toggle("flex-submeno");
+});
+let footer4 = document.getElementsByClassName("box")[3];
+let zirefooter4 = document.getElementsByClassName("zire4")[0];
 
+footer4.addEventListener("click", function () {
+    zirefooter4.classList.toggle("flex-submeno");
+});
+let footer5 = document.getElementsByClassName("box")[4];
+let zirefooter5 = document.getElementsByClassName("zire5")[0];
 
-
-
-
-
-
-
-
-
+footer5.addEventListener("click", function () {
+    zirefooter5.classList.toggle("flex-submeno");
+});

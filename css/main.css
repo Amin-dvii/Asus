@@ -1068,13 +1068,30 @@ a {
 .card-carousel {
     scrollbar-width: none;
     display: flex;
-    scroll-snap-type: x mandatory;
     gap: 19px;
-    transition: all 0.6s ease 0s;
+    transition: all 0.8s ease 0s;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+
 }
 
 .card-carousel>* {
     flex: 0 0 calc((100% / 3) - 12px);
+    scroll-snap-align: start;
+}
+
+.card-carousel1 {
+    scrollbar-width: none;
+    display: flex;
+    gap: 19px;
+    transition: all 0.8s ease 0s;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.card-carousel1>* {
+    flex: 0 0 calc((100% / 1) - 12px);
     scroll-snap-align: start;
 }
 
@@ -1106,6 +1123,10 @@ a {
     .card-carousel>* {
         flex: 0 0 calc((100% / 2) - 9px);
     }
+
+    .card-carousel1>* {
+        flex: 0 0 calc((100%) - -9px);
+    }
 }
 
 @media all and (max-width:640px) {
@@ -1117,3 +1138,61 @@ a {
 .hide {
     display: none;
 }
+
+.img_hamashon {
+    transition: left 0.25s ease-out 0s;
+}
+
+.av {
+    object-fit: cover;
+}
+
+.avv_tx {
+    background: rgba(0, 0, 0, 0.436);
+}
+
+.box {
+    border-bottom: 0.8px solid rgb(204, 204, 204);
+}
+
+.vvborder {
+    border-bottom: 0.8px solid rgb(204, 204, 204);
+}
+
+.titel_footer {
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    line-height: 18.9px;
+}
+
+.txs_fott {
+    color: rgb(77, 77, 77);
+    border-bottom: 0.8px solid transparent;
+}
+
+.txs_fott:hover {
+    border-bottom-color: rgb(77, 77, 77);
+}
+
+.last_input {
+    border: 0.8px solid black;
+}
+
+.sign_up_last {
+    background-color: #006ce1;
+}
+
+.sign_up_last:hover {
+    background-color: #0051a8;
+}
+
+.payan {
+    color: rgb(77, 77, 77);
+}
+
+/* @media all and (min-width:992px) {
+    .parent_asli_foot {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+} */
